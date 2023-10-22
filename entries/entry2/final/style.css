@@ -1,0 +1,339 @@
+body {
+	background-color:#FFD700 ;
+	margin: 0;
+}
+.grid-container{
+display: grid;
+grid-template-columns: repeat(11, 1fr);
+grid-gap: 5px
+}
+.circle-container {
+  	display:grid;
+  	grid-template-columns: repeat(11, 1fr);
+		grid-gap: 10px
+   /* Adjust the gap between circles as needed */
+  	margin-left:0px ;
+  	margin margin-right: 0px;
+  	position: relative;
+}
+  .circle {
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   background: #4A5D23;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+  .circle11 {
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   background: ghostwhite;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+.circle11 p {
+  font-family: Futura;
+  color: black;
+  font-size: 30px;
+  text-align: center; 
+}
+
+.circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+   display: inline-block;
+}
+.circle p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	}
+.circle1 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+   vertical-align: middle;
+}
+.circle1 p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.circle2 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle2 p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.circle3 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle3 p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.circle4 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle4 p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.circle5 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle5 p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}.circle6 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle6 p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}.circle7 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle7 p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.circle8 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle8 p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.circle9 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle9 p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.circle10 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle10 p {
+	font-family: Futura;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.Scroll-container{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 27px
+}
+.Scroll{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+background: ghostwhite;
+justify-content: center
+align-items:center;
+text-align: center;
+
+}
+.Scroll p{
+font-family: Futura;
+color: black;
+font-size: 30px;
+text-align: center;
+height: 100%;
+}
+.Scroll1{
+border-radius: 50%;
+width: 110px;
+height: 110px;
+background: ghostwhite;
+justify-content: center
+align-items:center;
+text-align: center;
+margin-left: 300px;
+}
+.Scroll1 p{
+font-family: Futura;
+color: black;
+font-size: 30px;
+text-align: center;
+height: 100%;
+}
+.Scroll2{
+border-radius: 50%;
+width: 120px;
+height: 120px;
+background: ghostwhite;
+justify-content: center
+align-items:center;
+text-align: center;
+margin: auto;
+
+}
+
+.Scroll2 p{
+font-family: Futura;
+color: black;
+font-size: 30px;
+text-align: center;
+height: 100%;
+}
+.Scroll3{
+border-radius: 50%;
+width: 140px;
+height: 140px;
+background: ghostwhite;
+justify-content: center
+align-items:center;
+text-align: center;
+margin-left: 1030px;
+}
+.Scroll3 p{
+font-family: Futura;
+color: black;
+font-size: 30px;
+text-align: center;
+height: 100%;
+}
+.Scroll4{
+border-radius: 50%;
+width: 500px;
+height: 500px;
+background: ghostwhite;
+justify-content: center
+align-items:center;
+text-align: center;
+margin: auto;
+}
+.Scroll4 p{
+font-family: Futura;
+color: black;
+font-size: 110px;
+text-align: center;
+height: 100%;
+}
+.blob {
+	background: white;
+	margin: auto;
+	height: 40px;
+	width: 70px;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+	text size: 20px;
+	text-align: center;
+	justify-content: center;
+	font-family: Futura;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+p2{
+	font-family: Futura;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	justify-content: center;
+	height: 100%;
+}

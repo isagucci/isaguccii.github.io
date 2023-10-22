@@ -1,0 +1,182 @@
+body{
+	background-image: linear-gradient(to top,#000B18,#00172D,#00264D,#02386E,#00498D, #212AA5,#4259C3,#7B9FF2,#9EC2FF,white);
+	height: 9000px;
+	background-size: cover;
+}
+h1,h2{
+font-family: "mudstone-sans", sans-serif;
+font-weight: 900;
+font-style: normal;
+color: #9EC2FF;
+margin: auto;
+}
+h2,{
+font-size: 30px;
+}
+h1{
+font-size: 200px;
+}
+h3{
+font-size: 30px;
+font-family: "mudstone-sans", sans-serif;
+font-weight: 900;
+font-style: normal;
+color: #4259C3;
+text-align: left;
+}
+h4{
+font-size: 30px;
+font-family: "mudstone-sans", sans-serif;
+font-weight: 900;
+font-style: normal;
+color: #7B9FF2;
+text-align: left;
+}
+h5{
+font-size: 30px;
+font-family: "mudstone-sans", sans-serif;
+font-weight: 900;
+font-style: normal;
+color: #7B9FF2;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 100px;
+overflow: hidden;
+position: relative;
+top: 0;
+animation: move 7s forwards; /* Apply the animation */   
+}
+ @keyframes move {
+    0% {
+        top: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+    100% {
+        top: 1050px; /* Define the final position */
+        opacity: 0;
+    }
+}
+
+h6{
+font-size: 30px;
+font-family: "mudstone-sans", sans-serif;
+font-weight: 900;
+font-style: normal;
+color: #4259C3;
+}
+.skyline{
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-gap: 30px;
+}
+
+div.building,.building1,.building2,.buidling3,.building4{
+	width: 200px;
+  	height: 1200px;
+    background-image: linear-gradient(to bottom,white,#9EC2FF,#7B9FF2);
+  	border: 1px ;
+  	border-style: none;
+  	position: relative;
+  	backdrop-filter: blur(10px);
+  	opacity: 0.7;
+}
+.building1{
+	top: 100px;
+	height: 1100px;
+}
+.building2{
+	top: 150px;
+	height: 1050px;
+}
+.buidling3{
+	top: 60px;
+	height: 1140;
+}
+.building4{
+	top: 200px;
+	height: 1000px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    animation: move 10s forwards; /* Apply the animation */
+}
+
+/* Define the initial size of the text */
+.grow-text {
+   
+}
+
+
+@keyframes move {
+    0% {
+        top: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+    100% {
+        top: 1000px; 
+        opacity: 0;
+    }
+   }
+ .text-container2,h6 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    animation: move 10s forwards;   
+ }
+ @keyframes move {
+    0% {
+        top: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+    100% {
+        top: 1200px; 
+        opacity: 0;
+    }
+}
+h7{
+font-family: "mudstone-sans", sans-serif;
+font-weight: 900;
+font-style: normal;
+    color: #9EC2FF;
+    margin: 0; 
+    font-size: 60px; 
+    text-align: center
+}
+p{
+font-family: Helvetica Neue;
+font-style: normal;
+    color: #9EC2FF;
+    margin: 0; 
+    font-size: 20px; 
+     text-align: center
+}
+
+a{
+font-family: "mudstone-sans", sans-serif;
+font-style: normal;
+    color: #9EC2FF;
+    margin: 0; 
+    font-size: 20px; 
+     text-align: center	
+}

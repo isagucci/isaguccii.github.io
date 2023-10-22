@@ -1,0 +1,172 @@
+body{
+	background-color: black;
+ 	cursor: url(flash.png), auto;
+}
+h1{
+font-family: "ht-neon", sans-serif;
+font-weight: 400;
+font-style: normal; 
+Text size: 100px ;
+color: 	#FDDA0D;
+text-align: center;
+}
+
+.text-container{
+		text-align: center;
+    	margin-top: 30px;
+ 
+
+ }	
+
+h2{
+	font-family: monospace;
+	text size: 30px;
+	color: 	#FDDA0D;
+	text-align: center;
+}
+h3{
+	font-family: monospace;
+	text size: 70px;
+	color: 	#FDDA0D;
+	text-align: center;
+}
+
+
+.typewriter  {
+  margin-top: 20px;
+  overflow: hidden; 
+  border-right: .15em #FDDA0D; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    type 4s steps(50, end),
+    blink-cursor .7s step-end infinite;
+}
+
+@keyframes type {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-cursor {
+
+  from, to { border-color: transparent }
+  100% { border-color: #FDDA0D; }
+
+}
+
+
+h1{
+    animation: flickerAndDisappear 0.5s forwards 4s 3;
+    opacity: 1;
+}
+
+@keyframes flickerAndDisappear {
+    0% {
+        opacity: 0; 
+    }
+    50% {
+        opacity: 1; 
+    }
+    100% {
+        opacity: 0; 
+    }
+    
+}
+
+.image-container{
+	align-items: center;
+	margin-top: 100px;
+	margin: auto;
+	opacity: 0;
+	text-align: center;
+}
+.image-container:hover,.image-container:hover +.nyctophobia{
+	opacity: 1;
+}
+.eyes{
+	margin-left: 400px;
+	margin-top: 100px;
+	opacity: 0;
+	width: 100px;
+	height: 100px;
+}
+
+.eyes:hover{
+	opacity: 1;
+}
+
+.face{
+	margin-left: 700px;
+	margin-top: 400x;
+	opacity: 0;
+	width: 120px;
+	height: 120px;
+}
+
+.face:hover{
+	opacity: 1;
+}
+
+.clown{
+	margin-left: 200px;
+	margin-top: px;
+	opacity: 0;
+	width: 84px;
+	height: 84px;
+}
+
+.clown:hover{
+	opacity: 1;
+}
+
+.daco{
+	margin-left: 200px;
+	margin-top: 100px;
+	opacity: 0;
+	width: 100px;
+	height: 50px;
+}
+
+.daco:hover{
+	opacity: 1;
+}
+.spider{
+	margin-left: 700px;
+	opacity: 0;
+	width: 150px;
+	height: 150px;
+}
+
+.spider:hover{
+	opacity: 1;
+}
+.hint-container{
+	align-items: center;
+	text-align: center;
+	opacity: 0;
+	width: 400;
+	height: 320;
+}
+.hint-container:hover{
+	opacity: 1;
+}
+
+h4{
+font-family: "ht-neon", sans-serif;
+font-weight: 400;
+font-style: normal; 
+Text size: 200px ;
+color: 	#FDDA0D;
+text-align: center;
+}
+
+p{
+font-family: monospace;
+Text size: 100px ;
+color: 	#FDDA0D;
+text-align: center;
+}
+
+

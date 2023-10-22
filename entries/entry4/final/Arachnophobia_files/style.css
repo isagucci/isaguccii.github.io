@@ -1,0 +1,22 @@
+body{
+	background-image: linear-gradient(to bottom,#817C1E,#5B6D2D,#355E3B,#0A290A,#000000);
+	height: 5000px;
+}
+.container{
+	align-content: center;
+	margin-top: 200px ;
+	background-image:url("web.png");
+	margin: auto;
+	height: 4000px;
+	width: 1500px;
+	
+	background-repeat: no-repeat;
+}
+
+
+
+.spider {
+	width: 30px;
+	height:30px ;
+	position: static;
+}

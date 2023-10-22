@@ -1,0 +1,206 @@
+body{
+	background-color: grey;
+}
+.grid-container{
+	width: 800px; /* Set the width and height of the container to define the circle's diameter */
+  height: 2000px;
+  border: 2px solid #333; /* Add a border for the circular container */
+  border-radius: 50%; /* Make the container a circle by setting border-radius to 50% */
+  position: relative; /* Position the inner grid items relative to this container */
+  overflow: hidden;
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(30, 2fr) ;
+	gap: 0px;
+	position: relative;
+	row-gap: 10px;
+	padding: 0;
+}
+.people2,.people3,.people1,.peopleb{
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+.spotlight{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	position: relative;
+}
+.spotlight{
+	padding: 0;
+	margin: 0;
+	margin-left: 0;
+}
+.people2{
+	z-index: 1;
+}
+.thought{
+	width: 300px;
+	height:50px;
+	position: absolute;
+	z-index: 2;
+	top: 100px;
+	left: 120px;
+	background-color: black;
+	border-style: dotted;
+	border-color: yellow;
+	align-items: center;
+	opacity: 0;
+	margin: 50px;
+	text-align: center;
+}
+.thought:hover{
+opacity: 1;
+}
+.thought1{
+	width: 320px;
+	height:50px;
+	position: absolute;
+	z-index: 2;
+	top: 300px;
+	right: 200px;
+	background-color: black;
+	border-style: dotted;
+	border-color: yellow;
+	align-items: center;
+	margin: 50px;
+	text-align: center;
+	opacity: 0;
+}
+.thought1:hover,.thought2:hover,.thought3:hover,.thought4:hover{
+	opacity: 1;
+	}
+
+.thought2{	
+	width: 320px;
+	height:50px;
+	position: absolute;
+	z-index: 2;
+	top: 300px;
+	left: 200px;
+	background-color: black;
+	border-style: dotted;
+	border-color: yellow;
+	align-items: center;
+	margin: 50px;
+	text-align: center;
+	opacity: 0;
+}
+.thought3{	
+	width: 320px;
+	height:50px;
+	position: absolute;
+	z-index: 2;
+	top: 100px;
+	right: 200px;
+	background-color: black;
+	border-style: dotted;
+	border-color: yellow;
+	align-items: center;
+	margin: 50px;
+	text-align: center;
+	opacity: 0;
+}
+.thought4{	
+	width: 320px;
+	height:50px;
+	position: absolute;
+	z-index: 2;
+	top: 400px;
+	left: 100px;
+	background-color: black;
+	border-style: dotted;
+	border-color: yellow;
+	align-items: center;
+	margin: 50px;
+	text-align: center;
+	opacity: 0;
+}
+p1,p2,p3,p4,p5{
+	font-size: 20px;
+	font-family: monospace;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+.spot{
+	border-radius: 50%;
+	align-items: center;
+	width: 200px ;
+	height: 200px;
+	align-content: center ;
+	margin-top: 20px;
+
+}
+.spot:hover{
+	background-color: yellow;
+}
+.camera,.camera2{
+	margin-top: 30px;
+}
+.man{
+	margin-top: 20px;
+}
+
+.peoplecontainer2{
+	display: inline-grid;
+	grid-template-columns: repeat(2, 1fr) ;
+	gap: 0px;
+}
+
+.title{
+	align-items: center;
+	align-content: center;
+	margin: auto;
+	border-radius: 50%;
+	width: 500px;
+	height:300px;
+	text-align: center;
+}
+h1{
+	font-family: "scrapbooker-tuscan", sans-serif;
+font-weight: 400;
+font-style: normal;
+	color: white;
+	font-size: 70px;
+	text-align: center;
+}
+h1:hover{
+	font-family: "ht-neon", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 70px;
+	text-align: center;
+	color: yellow;
+
+}
+.title:hover{
+	background-color: black;
+	padding: 0;
+}
+p{
+	font-family: monospace;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+p:hover{
+	font-family: "ht-neon", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+	color: yellow;
+	font-size: 30px;
+}
+
+
+
+
+/*@media (max-width:767px){
+	body{
+	display: block;	
+		
+	}
+}*/
