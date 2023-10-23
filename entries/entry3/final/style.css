@@ -1,21 +1,25 @@
 body{
-	background-image: linear-gradient(to top,#000B18,#00172D,#00264D,#02386E,#00498D, #212AA5,#4259C3,#7B9FF2,#9EC2FF,white);
-	height: 9000px;
+	background-image: linear-gradient(to top,#000B18,#00172D,#00264D,, #212AA5,#4259C3,#7B9FF2,#9EC2FF,white);
+	height: 9100px;
 	background-size: cover;
 }
-h1,h2{
+h1{
+font-family: "mudstone-sans", sans-serif;
+font-weight: 900;
+font-style: normal;
+color: #9EC2FF;
+margin: auto;
+font-size: 200px;
+}
+p.subtitle {
+font-size: 30px;
 font-family: "mudstone-sans", sans-serif;
 font-weight: 900;
 font-style: normal;
 color: #9EC2FF;
 margin: auto;
 }
-h2,{
-font-size: 30px;
-}
-h1{
-font-size: 200px;
-}
+
 h3{
 font-size: 30px;
 font-family: "mudstone-sans", sans-serif;
@@ -73,32 +77,60 @@ display: grid;
 grid-template-columns: repeat(6, 1fr);
 grid-gap: 30px;
 }
-
-div.building,.building1,.building2,.buidling3,.building4{
-	width: 200px;
-  	height: 1200px;
+.building{
+  top: 0px;
+    height: 1200px;
+     width: 200px;
     background-image: linear-gradient(to bottom,white,#9EC2FF,#7B9FF2);
-  	border: 1px ;
-  	border-style: none;
-  	position: relative;
-  	backdrop-filter: blur(10px);
-  	opacity: 0.7;
+    border: 1px ;
+    border-style: none;
+    position: relative;
+    backdrop-filter: blur(10px);
+    opacity: 0.7;
 }
 .building1{
-	top: 100px;
-	height: 1100px;
+	top: 300px;
+	height: 900px;
+     width: 200px;
+    background-image: linear-gradient(to bottom,white,#9EC2FF,#7B9FF2);
+    border: 1px ;
+    border-style: none;
+    position: relative;
+    backdrop-filter: blur(10px);
+    opacity: 0.7;
 }
 .building2{
 	top: 150px;
 	height: 1050px;
+    width: 200px;
+    background-image: linear-gradient(to bottom,white,#9EC2FF,#7B9FF2);
+    border: 1px ;
+    border-style: none;
+    position: relative;
+    backdrop-filter: blur(10px);
+    opacity: 0.7;
 }
-.buidling3{
-	top: 60px;
-	height: 1140;
+.building3{
+	top: 500px;
+	height: 700px;
+    width: 200px;
+    background-image: linear-gradient(to bottom,white,#9EC2FF,#7B9FF2);
+    border: 1px ;
+    border-style: none;
+    position: relative;
+    backdrop-filter: blur(10px);
+    opacity: 0.7;
 }
 .building4{
-	top: 200px;
-	height: 1000px;
+	top: 300px;
+	height: 900px;
+    width: 200px;
+    background-image: linear-gradient(to bottom,white,#9EC2FF,#7B9FF2);
+    border: 1px ;
+    border-style: none;
+    position: relative;
+    backdrop-filter: blur(10px);
+    opacity: 0.7;
 }
 
 .text-container {
@@ -110,6 +142,7 @@ div.building,.building1,.building2,.buidling3,.building4{
     position: relative;
     top: 0;
     animation: move 10s forwards; /* Apply the animation */
+    animation-delay: 4s;
 }
 
 /* Define the initial size of the text */
@@ -131,7 +164,7 @@ div.building,.building1,.building2,.buidling3,.building4{
         opacity: 0;
     }
    }
- .text-container2,h6 {
+ .text-container2,h6,h5 {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -139,7 +172,8 @@ div.building,.building1,.building2,.buidling3,.building4{
     overflow: hidden;
     position: relative;
     top: 0;
-    animation: move 10s forwards;   
+    animation: move 10s forwards; 
+    animation-delay: 6s; 
  }
  @keyframes move {
     0% {
@@ -180,3 +214,124 @@ font-style: normal;
     font-size: 20px; 
      text-align: center	
 }
+
+
+
+
+/*RESPONSIVE LAYOUT*/
+
+
+/*PHONE*/
+
+
+@media (max-width:786px){
+
+h1{
+font-size: 80px;
+}
+.subtitle{
+font-size: 10px;
+}
+.skyline{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 0px;
+}
+body{
+    background-image: linear-gradient(to top,#000B18,#00172D,#00264D,#02386E,#00498D, #212AA5,#4259C3,#7B9FF2,#9EC2FF,white);
+    height: 10000px;
+    background-size: cover;
+}
+h7{
+font-size: 30px;
+}
+p{
+font-size: 14px; 
+}
+}
+
+/*tablet*/
+
+@media (min-width:786px){
+
+h1{
+font-size: 90px;
+}
+.subtitle{
+font-size: 10px;
+}
+.skyline{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 0px;
+}
+body{
+    background-image: linear-gradient(to top,#000B18,#00172D,#00264D,#02386E,#00498D, #212AA5,#4259C3,#7B9FF2,#9EC2FF,white);
+    height: 10000px;
+    background-size: cover;
+}
+h7{
+font-size: 30px;
+}
+p{
+font-size: 17px; 
+text-align: center;
+}
+}
+
+/*desktop*/
+
+@media (min-width:992px){
+
+h1{
+font-size: 150px;
+}
+.subtitle{
+font-size: 30px;
+}
+.skyline{
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-gap: 20px;
+}
+body{
+    background-image: linear-gradient(to top,#000B18,#00172D,#00264D,#02386E,#00498D, #212AA5,#4259C3,#7B9FF2,#9EC2FF,white);
+    height: 10000px;
+    background-size: cover;
+}
+h7{
+font-size: 50px;
+}
+p{
+font-size: 20px; 
+}
+}
+
+/*large screens*/
+
+@media (min-width:1200px){
+
+h1{
+font-size: 200px;
+}
+.subtitle{
+font-size: 40px;
+}
+.skyline{
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-gap: 20px;
+}
+body{
+    background-image: linear-gradient(to top,#000B18,#00172D,#00264D,#02386E,#00498D, #212AA5,#4259C3,#7B9FF2,#9EC2FF,white);
+    height: 9100px;
+    background-size: cover;
+}
+h7{
+font-size: 50px;
+}
+p{
+font-size: 25px; 
+}
+}
+
