@@ -1,10 +1,10 @@
 body {
-	background-color:#FFD700 ;
+	background-color:	#C19A6B;
 	margin: 0;
 }
 .grid-container{
 display: grid;
-grid-template-columns: repeat(11, 1fr);
+grid-template-columns: repeat(20, 1fr);
 grid-gap: 5px
 }
 .circle-container {
@@ -16,7 +16,43 @@ grid-gap: 5px
   	margin margin-right: 0px;
   	position: relative;
 }
-  .circle {
+.circle {
+   border:4px solid #483C32;
+   border-radius: 50%;
+   width: 30px;
+   height: 30px;
+   background: #4A5D23;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: 	#6F4E37;
+ }
+ .circle12 {
+   border: 4px solid #483C32;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   background: #4A5D23;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: 	#6F4E37;
+   margin: 5px;
+ }
+  .circle13 {
+   border: 4px solid #483C32;
+   border-radius: 50%;
+   width: 20px;
+   height: 20px;
+   background: #4A5D23;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: 	#6F4E37;
+   margin: 10px;
+ }
+ .circle14 {
+   border: 4px solid #483C32;
    border-radius: 50%;
    width: 50px;
    height: 50px;
@@ -24,11 +60,15 @@ grid-gap: 5px
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: 	#6F4E37;
+   margin: 2px;
  }
+
   .circle11 {
+  border: 2px solid #483C32;
    border-radius: 50%;
-   width: 100px;
-   height: 100px;
+   width: 120px;
+   height: 120px;
    background: ghostwhite;
    display: flex;
    justify-content: center;
@@ -38,28 +78,13 @@ grid-gap: 5px
 
 .circle11 p {
   font-family: Futura;
-  color: black;
+  color: #6F4E37;
   font-size: 30px;
   text-align: center; 
 }
 
-.circle {
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-	background: ghostwhite;
-	display: flex;
-   justify-content: center;
-   align-items: center;
-   display: inline-block;
-}
-.circle p {
-	font-family: Futura;
-	color: black;
-	font-size: 30px;
-	text-align: center;
-	}
 .circle1 {
+	border: 2px solid #483C32;
 	border-radius: 50%;
 	width: 100px;
 	height: 100px;
@@ -71,14 +96,15 @@ grid-gap: 5px
 }
 .circle1 p {
 	font-family: Futura;
-	color: black;
+	color: #6F4E37;
 	font-size: 30px;
 	text-align: center;
 }
 .circle2 {
+	border: 2px solid #483C32;
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 110px;
+	height: 110px;
 	background: ghostwhite;
 	display: flex;
    justify-content: center;
@@ -86,14 +112,15 @@ grid-gap: 5px
 }
 .circle2 p {
 	font-family: Futura;
-	color: black;
+	color: #6F4E37;
 	font-size: 30px;
 	text-align: center;
 }
 .circle3 {
+	border: 2px solid #483C32;
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 130px;
+	height: 130px;
 	background: ghostwhite;
 	display: flex;
    justify-content: center;
@@ -101,14 +128,15 @@ grid-gap: 5px
 }
 .circle3 p {
 	font-family: Futura;
-	color: black;
+	color: #6F4E37;
 	font-size: 30px;
 	text-align: center;
 }
 .circle4 {
+	border: 2px solid #483C32;
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 110px;
+	height: 110px;
 	background: ghostwhite;
 	display: flex;
    justify-content: center;
@@ -116,14 +144,15 @@ grid-gap: 5px
 }
 .circle4 p {
 	font-family: Futura;
-	color: black;
+	color: #6F4E37;
 	font-size: 30px;
 	text-align: center;
 }
 .circle5 {
+	border: 2px solid #483C32;
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	background: ghostwhite;
 	display: flex;
    justify-content: center;
@@ -131,10 +160,11 @@ grid-gap: 5px
 }
 .circle5 p {
 	font-family: Futura;
-	color: black;
+	color: #6F4E37;
 	font-size: 30px;
 	text-align: center;
 }.circle6 {
+	border: 2px solid #483C32;
 	border-radius: 50%;
 	width: 100px;
 	height: 100px;
@@ -145,13 +175,14 @@ grid-gap: 5px
 }
 .circle6 p {
 	font-family: Futura;
-	color: black;
+	color: #6F4E37;
 	font-size: 30px;
 	text-align: center;
 }.circle7 {
+	border: 2px solid #483C32;
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 130px;
+	height: 130px;
 	background: ghostwhite;
 	display: flex;
    justify-content: center;
@@ -159,14 +190,15 @@ grid-gap: 5px
 }
 .circle7 p {
 	font-family: Futura;
-	color: black;
+	color: #6F4E37;
 	font-size: 30px;
 	text-align: center;
 }
 .circle8 {
+	border: 2px solid #483C32;
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	background: ghostwhite;
 	display: flex;
    justify-content: center;
@@ -174,11 +206,12 @@ grid-gap: 5px
 }
 .circle8 p {
 	font-family: Futura;
-	color: black;
+	color: #6F4E37;
 	font-size: 30px;
 	text-align: center;
 }
 .circle9 {
+	border: 2px solid #483C32;
 	border-radius: 50%;
 	width: 100px;
 	height: 100px;
@@ -189,14 +222,15 @@ grid-gap: 5px
 }
 .circle9 p {
 	font-family: Futura;
-	color: black;
+	color: #6F4E37;
 	font-size: 30px;
 	text-align: center;
 }
 .circle10 {
+	border: 2px solid #483C32;
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 110px;
+	height: 110px;
 	background: ghostwhite;
 	display: flex;
    justify-content: center;
@@ -204,7 +238,7 @@ grid-gap: 5px
 }
 .circle10 p {
 	font-family: Futura;
-	color: black;
+	color:#6F4E37;
 	font-size: 30px;
 	text-align: center;
 }
@@ -214,45 +248,48 @@ grid-template-columns: repeat(1, 1fr);
 grid-gap: 27px
 }
 .Scroll{
+border: 2px solid #483C32;
 border-radius: 50%;
 width: 100px;
 height: 100px;
 background: ghostwhite;
-justify-content: center
+justify-content: center;
 align-items:center;
 text-align: center;
 
 }
 .Scroll p{
 font-family: Futura;
-color: black;
+color: #6F4E37;
 font-size: 30px;
 text-align: center;
 height: 100%;
 }
 .Scroll1{
+border: 2px solid #483C32;
 border-radius: 50%;
 width: 110px;
 height: 110px;
 background: ghostwhite;
-justify-content: center
+justify-content: center;
 align-items:center;
 text-align: center;
 margin-left: 300px;
 }
 .Scroll1 p{
 font-family: Futura;
-color: black;
+color: #6F4E37;
 font-size: 30px;
 text-align: center;
 height: 100%;
 }
 .Scroll2{
+border: 2px solid #483C32;
 border-radius: 50%;
 width: 120px;
 height: 120px;
 background: ghostwhite;
-justify-content: center
+justify-content: center;
 align-items:center;
 text-align: center;
 margin: auto;
@@ -261,57 +298,61 @@ margin: auto;
 
 .Scroll2 p{
 font-family: Futura;
-color: black;
+color: #6F4E37;
 font-size: 30px;
 text-align: center;
 height: 100%;
 }
 .Scroll3{
+border: 2px solid #483C32;
 border-radius: 50%;
 width: 140px;
 height: 140px;
 background: ghostwhite;
-justify-content: center
+justify-content: center;
 align-items:center;
 text-align: center;
 margin-left: 1030px;
 }
 .Scroll3 p{
 font-family: Futura;
-color: black;
+color: #6F4E37;
 font-size: 30px;
 text-align: center;
 height: 100%;
 }
 .Scroll4{
+border: 2px solid #483C32;
 border-radius: 50%;
 width: 500px;
 height: 500px;
 background: ghostwhite;
-justify-content: center
+justify-content: center;
 align-items:center;
 text-align: center;
 margin: auto;
 }
 .Scroll4 p{
 font-family: Futura;
-color: black;
+color: #6F4E37;
 font-size: 110px;
 text-align: center;
 height: 100%;
 }
-.blob {
-	background: white;
+.blob,p4 {
+	background: #C19A6B;
 	margin: auto;
-	height: 40px;
-	width: 70px;
+	height: 50px;
+	width: 90px;
 	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
 	transform: scale(1);
 	animation: pulse 2s infinite;
-	text size: 20px;
+	text size: 30px;
 	text-align: center;
 	justify-content: center;
+	color: white;
 	font-family: Futura;
+
 }
 @keyframes pulse {
 	0% {
@@ -329,11 +370,341 @@ height: 100%;
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
 }
+.text{
+	height: 200px;
+	width: 600px;
+	background-color: white;
+	border: 2px solid #483C32;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+}
 p2{
 	font-family: Futura;
-	color: white;
-	font-size: 40px;
+	color:  #6F4E37;
+	font-size: 20px;
 	text-align: center;
-	justify-content: center;
 	height: 100%;
+}
+
+
+
+
+/* media quearies  */
+
+
+
+
+
+/* phone  */
+@media (max-width:768px) {
+	.circle,.circle14,.circle13,.circle12{
+	 border:1px solid #483C32;
+   border-radius: 50%;
+   width: 15px;
+   height: 15px;
+   background: #4A5D23;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: 	#6F4E37;
+ }
+
+.grid-container{
+	grid-gap: 0px;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+}
+.circle11 {
+  border: 2px solid #483C32;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   background: ghostwhite;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+.circle11 p {
+  font-family: Futura;
+  color: #6F4E37;
+  font-size: 30px;
+  text-align: center; 
+}
+
+.circle1 {
+	border: 2px solid #483C32;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+   vertical-align: middle;
+}
+.circle1 p {
+	font-family: Futura;
+	color: #6F4E37;
+	font-size: 30px;
+	text-align: center;
+}
+.circle2 {
+	border: 2px solid #483C32;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle2 p {
+	font-family: Futura;
+	color: #6F4E37;
+	font-size: 30px;
+	text-align: center;
+}
+.circle3 {
+	border: 2px solid #483C32;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle3 p {
+	font-family: Futura;
+	color: #6F4E37;
+	font-size: 30px;
+	text-align: center;
+}
+.circle4 {
+	border: 2px solid #483C32;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle4 p {
+	font-family: Futura;
+	color: #6F4E37;
+	font-size: 30px;
+	text-align: center;
+}
+.circle5 {
+	border: 2px solid #483C32;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle5 p {
+	font-family: Futura;
+	color: #6F4E37;
+	font-size: 30px;
+	text-align: center;
+}.circle6 {
+	border: 2px solid #483C32;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle6 p {
+	font-family: Futura;
+	color: #6F4E37;
+	font-size: 30px;
+	text-align: center;
+}.circle7 {
+	border: 2px solid #483C32;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle7 p {
+	font-family: Futura;
+	color: #6F4E37;
+	font-size: 30px;
+	text-align: center;
+}
+.circle8 {
+	border: 2px solid #483C32;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle8 p {
+	font-family: Futura;
+	color: #6F4E37;
+	font-size: 30px;
+	text-align: center;
+}
+.circle9 {
+	border: 2px solid #483C32;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle9 p {
+	font-family: Futura;
+	color: #6F4E37;
+	font-size: 30px;
+	text-align: center;
+}
+.circle10 {
+	border: 2px solid #483C32;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: ghostwhite;
+	display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.circle10 p {
+	font-family: Futura;
+	color:#6F4E37;
+	font-size: 30px;
+	text-align: center;
+}
+.Scroll-container{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 10px
+}
+.Scroll{
+border: 2px solid #483C32;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+background: ghostwhite;
+justify-content: center
+align-items:center;
+text-align: center;
+
+}
+.Scroll p{
+font-family: Futura;
+color: #6F4E37;
+font-size: 15px;
+text-align: center;
+height: 100%;
+}
+.Scroll1{
+border: 2px solid #483C32;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+background: ghostwhite;
+justify-content: center
+align-items:center;
+text-align: center;
+margin-left: 150px;
+}
+.Scroll1 p{
+font-family: Futura;
+color: #6F4E37;
+font-size: 15px;
+text-align: center;
+height: 100%;
+}
+.Scroll2{
+border: 2px solid #483C32;
+border-radius: 50%;
+width: 70px;
+height: 70px;
+background: ghostwhite;
+justify-content: center
+align-items:center;
+text-align: center;
+margin: auto;
+
+}
+
+.Scroll2 p{
+font-family: Futura;
+color: #6F4E37;
+font-size: 15px;
+text-align: center;
+height: 100%;
+}
+.Scroll3{
+border: 2px solid #483C32;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+background: ghostwhite;
+justify-content: center
+align-items:center;
+text-align: center;
+margin-left: 350px;
+}
+.Scroll3 p{
+font-family: Futura;
+color: #6F4E37;
+font-size: 20px;
+text-align: center;
+height: 100%;
+}
+.Scroll4{
+border: 2px solid #483C32;
+border-radius: 50%;
+width: 300px;
+height: 300px;
+margin-left: 200px;
+background: ghostwhite;
+justify-content: center;
+align-items:center;
+text-align: center;
+margin: auto;
+}
+.Scroll4 p{
+font-family: Futura;
+color: #6F4E37;
+font-size: 50px;
+text-align: center;
+height: 100%;
+}
+.text{
+	height: 200px;
+	width: 400px;
+	background-color: white;
+	border: 2px solid #483C32;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+}
+p2{
+	font-family: Futura;
+	color:  #6F4E37;
+	font-size: 17px;
+	text-align: center;
+	height: 100%;
+}
 }
