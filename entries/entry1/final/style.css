@@ -1,18 +1,67 @@
 .words{
 	justify-content: center;
 	align-content: center;
-	width: 1100px;
-	height: 300pxs;
+	width: 1200px;
+	height: 700pxs;
 	display: flex;
+	hyphens: none;
+	text-align: justify;
 }
 
 .bounce{
-	text-align: justify-all;
- animation: bounce 1s infinite alternate;
  font-family: monospace;
-font-size:15px ;
-}
+font-size: 10px ;
 
+}
+ .letters{
+ 	 animation: bounce 1s infinite alternate;
+ 	position: relative;
+ }
+
+ .l1{
+ 	position: absolute;
+ 	font-size: 30px;
+ 	left: 300px;
+ }
+ .l2{
+ 	position: absolute;
+ 	font-size: 30px;
+ 	left: 350px;
+ 	top: 200px;
+ }
+ .l3{
+ 	position: absolute;
+ 	font-size: 30px;
+ 	left: 500px;
+ 	top: 0px;
+ }
+ .l4{
+ 	position: absolute;
+
+ 	font-size: 30px;
+ 	left: 500px;
+ 	top: 400px;
+ }
+ .l5{
+ 	position: absolute;
+
+ 	font-size: 30px;
+ 	left: 700px;
+ 	top: 400px;
+ }
+ .l6{
+ 	position: absolute;
+ 	font-size: 30px;
+ 	left: 900px;
+ 	top: 600px;
+ }
+ .l7{
+ 	position: absolute;
+ 	position: absolute;
+ 	font-size: 30px;
+ 	left: 300px;
+ 	top: 0px;
+ }
 
 @keyframes bounce {
     0% {
@@ -22,3 +71,227 @@ font-size:15px ;
         transform: translateY(-20px); /* Adjust the value to control the bounce height */
     }
 }
+
+/*RESPONSIVE LAYOUT*/
+
+
+/*PHONE*/
+
+
+@media (max-width:786px){
+
+h1{
+	font-size: 20px;
+}
+p{
+	font-size: 12px;
+}
+
+.words{
+	justify-content: center;
+	align-content: center;
+	width: 300px;
+	height: 700pxs;
+	display: flex;
+	hyphens: none;
+	text-align: justify;
+}
+
+.bounce{
+ font-family: monospace;
+font-size: 8px ;
+
+}
+.l1{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 10px;
+ }
+ .l2{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 100px;
+ 	top: 150px;
+ }
+ .l3{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 400px;
+ }
+.l4{
+ 	position: absolute;
+
+ 	font-size: 20px;
+ 	left: 100px;
+ 	top: 500px;
+ }
+ .l5{
+ 	position: absolute;
+
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 700px;
+ }
+ .l6{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 600px;
+ 	top: 900px;
+ }
+ .l7{
+ 	position: absolute;
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 0px;
+ }
+
+/*tablet*/
+
+@media (min-width:786px){
+
+h1{
+	font-size: 25px;
+}
+p{
+	font-size: 15px;
+}
+
+.words{
+	justify-content: center;
+	align-content: center;
+	width: 300px;
+	height: 700pxs;
+	display: flex;
+	hyphens: none;
+	text-align: justify;
+}
+
+.bounce{
+ font-family: monospace;
+font-size: 8px ;
+
+}
+.l1{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 10px;
+ 	top: 100px;
+ }
+ .l2{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 50px;
+ 	top: 200px;
+ }
+ .l3{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 400px;
+ }
+.l4{
+ 	position: absolute;
+
+ 	font-size: 20px;
+ 	left: 100px;
+ 	top: 500px;
+ }
+ .l5{
+ 	position: absolute;
+
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 700px;
+ }
+ .l6{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 600px;
+ 	top: 900px;
+ }
+ .l7{
+ 	position: absolute;
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 0px;
+ }
+ }
+
+/*desktop*/
+
+/*large screens*/
+
+@media (min-width:1200px){
+
+
+h1{
+	font-size: 30px;
+}
+p{
+	font-size: 20px;
+}
+
+.words{
+	justify-content: center;
+	align-content: center;
+	width: 700px;
+	height: 700pxs;
+	display: flex;
+	hyphens: none;
+	text-align: justify;
+}
+
+.bounce{
+ font-family: monospace;
+font-size: 8px ;
+
+}
+.l1{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 10px;
+ 	top: 100px;
+ }
+ .l2{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 50px;
+ 	top: 200px;
+ }
+ .l3{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 400px;
+ }
+.l4{
+ 	position: absolute;
+
+ 	font-size: 20px;
+ 	left: 100px;
+ 	top: 500px;
+ }
+ .l5{
+ 	position: absolute;
+
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 700px;
+ }
+ .l6{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 600px;
+ 	top: 900px;
+ }
+ .l7{
+ 	position: absolute;
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 0px;
+ }
+ }
