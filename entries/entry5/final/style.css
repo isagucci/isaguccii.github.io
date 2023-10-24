@@ -1,67 +1,48 @@
+
+
 body{
 	background-image: linear-gradient(to bottom,#817C1E,#5B6D2D,#355E3B,#0A290A,#000000);
-	height: 5500px;
+	height: 5700px;
 }
-
-.webs{
+.body{
 	position: relative;
-	top:0px ;
+}
+.webs {
+	position: absolute;
+	display: flex;
 	gap: 0px;
+	flex-direction: column;
+	max-width: 100%;
+	z-index: 2;
+	top: 0px;
+	align-content: center;
 }
-.web{
-	z-index: 3;
-	top:3000px ;
-}
-.top{
+.webs2 {
+	gap: 0px;
+	top: 0px;
 	position: absolute;
-	top: 0;
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
 	z-index: 1;
+	align-content: center;
+	
+}
+.webs3 {
+	gap: 0px;
+	top: 0px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	z-index: 3;
+	top: 0px;
+	align-content: center;
+}
+.webmiddle{
+	margin-top: 270px;
 }
 
-.web3{
-	position: absolute;
-	z-index: 1;
-	top:1115px ;
-}
-.web4{
-	position: absolute;
-	z-index: 2;
-	top: 1115px;
-}
-.spider {
-	width: 30px;
-	height:30px ;
-}
-
-.web5, .web8 {
-		position: absolute;
-	z-index: 2;
-	top: 2232px;
-	opacity: 0.6;
-}
-.web6,.web7,.web9 {
-	position: absolute;
-	z-index: 3;
-	top: 2232px;
-opacity: 0.6;
-}
-.web10{
-		position: absolute;
-	z-index: 1;
-	top: 2232px;
-	align-content: center;
-	align-items: center;
-	margin: auto;
-	overflow: hidden;
-}
-.web11{
-		position: absolute;
-	z-index: 1;
-	top: 3350px;
-	align-content: center;
-	align-items: center;
-	margin: auto;
-}
 
 h1,.text{
 	font-family: "ltr-beowolf-r23", serif;
@@ -69,7 +50,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 70px;
 color: white;
-top: 2100px;
+top: 2200px;
 position: absolute;
 text-align: center;
 align-items: center;
@@ -79,15 +60,18 @@ margin: auto;
 margin: auto;
 width: 400px;
 height: 300px;
-position: relative;
+position: absolute;
+top:4600px ;
+align-items: center;
+justify-items: center;
+margin-left: 600px;
 }
 p{
 	font-family: monospace;
-	font-size: 20px;
+	font-size: 17px;
 	color: white;
 	text-align: center;
-	top:3300px ;
-	position: absolute;
+	
 
 }
 
@@ -100,34 +84,71 @@ p{
 
 @media (max-width:786px){
 
-h2{
-font-size: 9px;
+body{
+	background-image: linear-gradient(to bottom,#817C1E,#5B6D2D,#355E3B,#0A290A,#000000);
+	height: 2000px;
 }
-.image-container,.face,.spider,.clown,.eyes,.daco,.{
-	max-width: 100%;
+
+h1{
+font-size: 20px;
+top: 600px;
+}
+
+p{
+font-size: 8px;
+top: 800px;
+}
+.webs img,.webs2 img,.webs3 img{
+max-width: 99%;
+}
+.text2{
+	margin-left: 0px;
+	top: 1500px;
+	margin-left: 50px;
+}
+.text{
+top: 750px;
+margin: auto;
+
+}
+.webmiddle{
+	margin-top: 87px;
 }
 }
 
 /*tablet*/
 
 @media (min-width:786px){
+body{
+	background-image: linear-gradient(to bottom,#817C1E,#5B6D2D,#355E3B,#0A290A,#000000);
+	height: 4000px;
+}
+
 h1{
 font-size: 30px;
-}
-h2{
-font-size: 10px;
-}
+top: 2300px;
 }
 
-/*desktop*/
-
-@media (min-width:992px){
-
-h1{
-font-size: 40px;
+p{
+font-size: 15px;
+top: 2800px;
 }
-h2{
-font-size: 20px;
+.webs img,.webs2 img,.webs3 img{
+max-width: 99%;
+}
+.text2{
+	margin-left: 0px;
+	top: 3400px;
+	margin-left: 400px;
+}
+.text{
+top: 750px;
+margin: auto;
+
+}
+.webmiddle{
+	margin-top: 214px;
+}
 }
 
 
@@ -135,6 +156,34 @@ font-size: 20px;
 
 @media (min-width:1200px){
 
+body{
+	background-image: linear-gradient(to bottom,#817C1E,#5B6D2D,#355E3B,#0A290A,#000000);
+	height: 5800px;
+}
+
 h1{
-font-size: 60px;
+font-size: 50px;
+top: 3000px;
+}
+
+p{
+font-size: 20px;
+top: 8000px;
+}
+.webs img,.webs2 img,.webs3 img{
+max-width: 100%;
+}
+.text2{
+	margin-left: 0px;
+	top: 4400px;
+	margin-left: 400px;
+}
+.text{
+top: 750px;
+margin: auto;
+
+}
+.webmiddle{
+	margin-top: 270px;
+}
 }
