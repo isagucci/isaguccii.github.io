@@ -1,3 +1,92 @@
 body{
-	background: skyblue;
+	background: black;
+}
+.bodycontainer{
+	position: relative;
+}
+.textcontainer{
+	position: absolute;
+	margin-left: 100px;
+	display: grid;
+	grid-template-columns:repeat(5,1fr);
+	row-gap: 400px;
+	align-content: center;
+	z-index: 2;
+	column-gap: 160px;
+	 top: px;
+}
+.title{
+font-family: "shlop-shloppy", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 25px;
+justify-content: center; /* Center horizontally */
+ align-items: center; 
+ margin: auto;
+
+}
+a{
+	color: #880808;
+}
+
+.closeddoorc{
+	position: absolute;
+	display: grid;
+	grid-template-columns:repeat(5,1fr);
+	margin-left: 80px;
+	 column-gap: 70px;
+	 row-gap: 50px;
+	 z-index: 1 ;
+	 top: 50px;
+}
+
+.opendoorc{
+	position: absolute;
+	display: grid;
+	grid-template-columns:repeat(5,1fr);
+	margin-left: 80px;
+	 column-gap: 0px;
+	 z-index: 2 ;
+}
+
+.opendoor{
+	opacity: 0;
+}
+
+.opendoor:hover{
+	opacity: 1;
+}
+h1{
+	background-image: ;
+}
+.H1{
+	font-family: "shlop-shloppy", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;
+ justify-content: center; /* Center horizontally */
+ align-items: center; 
+ 	color: whitesmoke;
+ 	top: 300px;
+ 	margin-left: 200px;
+  background-image:linear-gradient(to bottom,whitesmoke,#880808); /* Define your gradient colors */
+  background-clip: text;
+  -webkit-background-clip: text; /* For older webkit browsers */
+  color: transparent;
+}
+
+p{
+font-family: monospace;
+font-weight: 400;
+font-style: normal;
+color: #880808;
+font-size: 25px;
+li
+}
+.bodytext{
+	width: 1000px;
+	height: 200px;
+	margin-left: 200px;
+	justify-content: center;
+	text-align: center;
 }
