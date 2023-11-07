@@ -146,3 +146,38 @@ max-width: 70%;
     left: 130px;
 }
 }
+
+@media(min-width: 1200px){
+  .mouth{
+top: 3100px;
+left: 460px;
+opacity: 0;
+}
+.mouth:hover{
+  opacity: 1;
+}
+svg {
+  max-width: 10%;
+  transform: translate(270px, 390px);
+  animation: vibrate 0.5s infinite linear;
+  z-index: 2;
+}
+
+@keyframes vibrate {
+   0% {
+    transform: translate(710px, 420px);
+  }
+  25% {
+    transform: translate(715px, 420px);
+  }
+  50% {
+    transform: translate(705px, 420px);
+  }
+  75% {
+    transform: translate(715px, 420px);
+  }
+  100% {
+    transform: translate(705px, 420px);
+  }
+}
+}
