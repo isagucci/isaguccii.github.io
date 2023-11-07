@@ -1,0 +1,148 @@
+body{
+    background-image: url(sand.jpeg) ;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+.snake{
+   display: grid;
+   grid-template: repeat(1, 1fr);
+   row-gap: 0px;
+}
+.start{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: px;
+  position: relative;
+  z-index: 1;
+}
+.start1{
+    top: 50px;
+}
+
+.follow { 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next { 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last { 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  z-index: 1;
+}
+
+.mouth{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+position: absolute;
+z-index: 2;
+top: 3050px;
+left: 300px;
+opacity: 0;
+}
+
+.mouth:hover{
+    opacity: 1;
+}
+
+.text{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+position: absolute;
+top: 2700px;
+left: 250px;
+width: 500px;
+}
+p{
+font-family: "tomarik-display-line", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: white;
+font-size: 50px;
+}
+
+svg {
+  max-width: 5%;
+  transform: translate(660px, 410px);
+  animation: vibrate 0.5s infinite linear;
+  z-index: 2;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translate(660px, 410px);
+  }
+  25% {
+    transform: translate(665px, 410px);
+  }
+  50% {
+    transform: translate(655px, 410px);
+  }
+  75% {
+    transform: translate(665px, 410px);
+  }
+  100% {
+    transform: translate(660px, 410px);
+  }
+}
+
+@media (max-width: 767px) {
+ p{
+font-size: 30px;
+}
+.text{
+left: 50px;
+width: 300px;
+}
+svg {
+  max-width: 10%;
+  transform: translate(270px, 390px);
+  animation: vibrate 0.5s infinite linear;
+  z-index: 2;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translate(190px, 390px);
+  }
+  25% {
+    transform: translate(195px, 390px);
+  }
+  50% {
+    transform: translate(185px, 390px);
+  }
+  75% {
+    transform: translate(195px, 390px);
+  }
+  100% {
+    transform: translate(190px, 390px);
+  }
+}
+.mouth{
+max-width: 10%;
+top: 3050px;
+left: 150px;
+opacity: 0;
+}
+
+
+.next,.follow,.start{ 
+max-width: 70%;
+}
+.last{
+    max-width: 60%;
+    left: 130px;
+}
+}
