@@ -59,3 +59,45 @@
 			color:white;
 			text-align: center;
 }
+
+/* Media query for tablet screens */
+@media (max-width: 991px) {
+  
+  body{
+  	background-size: 98%;
+  }
+  .title{
+			top: 400px;
+			left: 170px;
+			font-size: 25px;
+		}
+  .bodytext{
+			top: 550px;
+			left: 30px;
+			font-size: 18px
+}
+button{
+	width: 50px;
+	height: 50px;
+	font-size: 10px;
+}
+.button-container {
+			position: absolute;
+			top: 125px;
+			right: 190px;
+		}
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+/* Media query for very wide screens */
+/* Everything between 767 and 1200 will be covered with the default styles of the website */
+@media (min-width: 1200px) {
+  body {
+    font-size: 60px;
+  }
