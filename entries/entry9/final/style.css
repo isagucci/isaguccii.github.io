@@ -67,6 +67,33 @@
   	background-size: 98%;
   }
   .title{
+			top: 700px;
+			left: 370px;
+			font-size: 25px;
+		}
+  .bodytext{
+			top: 800px;
+			left: 200px;
+			font-size: 18px
+}
+button{
+	width: 70px;
+	height: 70px;
+	font-size: 15px;
+}
+.button-container {
+			position: absolute;
+			top: 210px;
+			right: 350px;
+		}
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+    body{
+  	background-size: 98%;
+  }
+  .title{
 			top: 400px;
 			left: 170px;
 			font-size: 25px;
@@ -88,16 +115,32 @@ button{
 		}
 }
 
-/* Media query for mobile screens */
-@media (max-width: 767px) {
-  body {
-    font-size: 20px;
-  }
-}
 
 /* Media query for very wide screens */
 /* Everything between 767 and 1200 will be covered with the default styles of the website */
 @media (min-width: 1200px) {
-  body {
-    font-size: 60px;
+  @media (max-width: 767px) {
+    body{
+  	background-size: 100%;
   }
+  .title{
+			top: 400px;
+			left: 170px;
+			font-size: 25px;
+		}
+  .bodytext{
+			top: 550px;
+			left: 30px;
+			font-size: 18px
+}
+button{
+	width: 50px;
+	height: 50px;
+	font-size: 10px;
+}
+.button-container {
+			position: absolute;
+			top: 125px;
+			right: 200px;
+		}
+}
