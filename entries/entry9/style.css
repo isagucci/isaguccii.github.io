@@ -1,24 +1,50 @@
 /* You can change the colors, font, and so on below */
 
 		body {
-			margin: 75px;
-			font-size: 40px;
+			background-image: url('desk.jpeg'); ;
+			background-repeat: no-repeat;
+			background-color: orange;
 		}
 
 		.button-container {
-			position: fixed;
-			bottom: 75px;
-			right: 75px;
+			position: absolute;
+			top: 350px;
+			right: 500px;
 		}
 
-		.list-one {
+		button{
+			background-color: white;
+			font-family: "carlmarx", sans-serif;
+			font-weight: 700;
+			font-style: normal;
+			font-size: 15px;
+			width: 80px;
+			height: 80px;
 			color: orange;
+      		border-radius: 20px; /* Adjust the border-radius to control the 'bubbly' effect */
+      		cursor: pointer;
+		}
+			
+		button:hover{
+			background-color: orange;
+			color: white;
 		}
 
-		.list-two {
-			color: black;
+		.title{
+			position: absolute;
+			top: 1000px;
+			left: 550px;
+			font-family: "carlmarx", sans-serif;
+			font-weight: 700;
+			font-style: normal;
+			font-size: 40px;
+			color:white;
 		}
-        
-        .list-three {
-			color: pink;
-		}
+.body{
+	position: relative;
+}
+.box{
+	position: absolute;
+	height: 400px;
+	width: 200px;
+}

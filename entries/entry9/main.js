@@ -1,87 +1,18 @@
-$(document).ready(function() {
+  var currentImageIndex = 0;
+  var imageUrls = ['desk1.jpg', 'desk2.jpg', 'desk3.jpg','desk4.jpg','desk5.jpg','desk6.jpg']; 
 
-			// list one content
-			var one = [
-				"weird",
-				"smooth",
-				"evil",
-				"amazing",
-				"open",
-				"sunshine",
-				"cool",
-				"soft",
-				"sexy",
-				"sour",
-				"old",
-				"abnormal",
-				"striped",
-				"sticky",
-				"beautiful",
-			];
+  function changeBackgroundImage() {
+    var body = document.body;
 
-			// list two content
-			var two = [
-				"elephant",
-				"rat",
-				"tortoise",
-				"bug",
-				"pill",
-				"oval",
-				"jacket",
-				"friend",
-				"inch",
-				"fountain",
-				"miracle",
-				"deer",
-				"pool",
-				"door",
-				"word",
-			];
-            
-            // list three content
-			var three = [
-				"circus",
-				"house",
-				"gym",
-				"zoo",
-                "pool",
-				"farm",
-				"restaurant",
-				"mall",
-                "market",
-				"lab",
-				"courthouse",
-                "school",
-				"classroom",
-				"street"
-			];
-            
-
-			// This is a very common randomizing function.
-			// It takes a list (array) and returns one at random.
-			function select_random(x){
-				y = x[Math.floor(Math.random()*x.length)];
-				return y;
-			}
-
-			function generate(){
-
-				// Select a random item from each list
-				var selected_one = select_random(one);
-				var selected_two = select_random(two);
-                var selected_three = select_random(three);
-
-				// Take the selected (random) item from list and make it visible
-				$('.list-one').html(selected_one);
-				$('.list-two').html(selected_two);
-                $('.list-three').html(selected_three);
-
-			}
-
-			$('button').click(function(){
-				generate();
-			});
-
-			generate();
-			
-		});
+    // Check if there are more images to display
+    if (currentImageIndex < imageUrls.length) {
+      // Set the next background image
+      body.style.backgroundImage = 'url(' + imageUrls[currentImageIndex] + ')';
+      currentImageIndex++;
+    } else {
+      // If all images have been displayed, reset to the first image
+      currentImageIndex = 0;
+      body.style.backgroundImage = 'url(' + imageUrls[currentImageIndex] + ')';
+      currentImageIndex++;
+    }
+  }
