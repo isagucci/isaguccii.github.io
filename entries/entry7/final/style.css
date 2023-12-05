@@ -1,3 +1,20 @@
+header{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 99%;
+  font-size: 2vh;
+font-family: "tomarik-display-line", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: darkred;
+}
+a{
+     text-decoration: none;
+     color:   white;
+}
+
+
+
 body{
     background-image: url(sand.jpeg) ;
     background-size: cover;
@@ -48,7 +65,7 @@ body{
 position: absolute;
 z-index: 2;
 top: 3050px;
-left: 300px;
+left: 250px;
 opacity: 0;
 }
 
@@ -149,8 +166,8 @@ max-width: 70%;
 
 @media(min-width: 1200px){
   .mouth{
-top: 3100px;
-left: 460px;
+top: 3120px;
+left: 400px;
 opacity: 0;
 }
 .mouth:hover{

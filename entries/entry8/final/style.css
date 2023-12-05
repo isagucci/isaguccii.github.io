@@ -1,14 +1,36 @@
+ header{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 99%;
+  font-size: 2vh;
+font-family: "arial";
+padding bottom: 30px;
+text-align: center;
+}
+a{
+     text-decoration: none;
+     color: 	darkred;
+}
+
+
+
 body{
 	background: black;
 }
 .container{
 	position: relative;
+	 width: 1400px;
+      height: 1200px;
+      display: none;
+
 }
 .window{
       position: absolute;
       z-index: 2;
-      align-items: center;
-      align-content: center;
+      background-image: url("glassentry.png");
+      background-repeat: no-repeat;
+      width: 1400px;
+      height: 1200px;
 }
 
 .handprint{
@@ -17,10 +39,56 @@ body{
 	top: 100px;
 	left: 300px;
 }
+.handprint1{
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	left: 800px;
+}
 
 .handprint3{
 	position: absolute;
 	z-index: 1;
-	top: 500px;
+	top: 550px;
 	left: 700px;
 }
+
+.handprint2{
+	position: absolute;
+	z-index: 1;
+	top: 600px;
+	left: 300px;
+}
+
+
+button {
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: darkred;
+    font-family: 'VT323', monospace;
+    color: black;
+    border-color: indianred ;
+    margin-left: 600px;
+}
+
+h1{
+	font-size: 80px;
+	color: darkred;
+	font-family: dark;
+	text-align: center;
+}
+p{
+	font-size: 25px;
+	color: darkred;
+	font-family: dark;
+	text-align: center;
+}
+
+.text{
+	margin-top: 1300px;
+	
+}
+
+a

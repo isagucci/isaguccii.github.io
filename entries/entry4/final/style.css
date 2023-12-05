@@ -1,3 +1,19 @@
+header{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 99%;
+  font-size: 2vh;
+font-family: "ht-neon", sans-serif;
+font-weight: 400;
+font-style: normal; 
+color: 	#FDDA0D;
+}
+a{
+     text-decoration: none;
+     color: 	#FDDA0D;
+}
+
+
 body{
 	background-color: black;
  	cursor: url(flash.png), auto;

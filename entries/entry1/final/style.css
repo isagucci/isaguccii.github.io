@@ -1,7 +1,22 @@
+
+header{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 99%;
+  font-size: 1.5vh;
+  font-family: monospace;
+  font-style: normal;
+}
+a{
+	 text-decoration: none;
+	 color:black;
+}
+
+
 .words{
 	justify-content: center;
 	align-content: center;
-	width: 1200px;
+	width: 1450px;
 	height: 700pxs;
 	display: flex;
 	hyphens: none;
@@ -20,47 +35,74 @@ font-size: 10px ;
 
  .l1{
  	position: absolute;
- 	font-size: 30px;
- 	left: 300px;
+ 	font-size: 20px;
+ 	left: 1000px;
+ 	transform: rotate(45deg);
+
+
  }
  .l2{
  	position: absolute;
  	font-size: 30px;
- 	left: 350px;
- 	top: 200px;
+ 	left: 700px;
+ 	top: 150px;
  }
  .l3{
  	position: absolute;
  	font-size: 30px;
- 	left: 500px;
- 	top: 0px;
+ 	left: 900px;
+ 	top: 50px;
  }
  .l4{
  	position: absolute;
 
  	font-size: 30px;
  	left: 500px;
- 	top: 400px;
+ 	top: 300px;
  }
  .l5{
  	position: absolute;
 
  	font-size: 30px;
- 	left: 700px;
- 	top: 400px;
+ 	left: 600px;
+ 	top: 200px;
  }
  .l6{
  	position: absolute;
  	font-size: 30px;
- 	left: 900px;
- 	top: 600px;
+ 	left: 600px;
+ 	top: 400px;
  }
  .l7{
  	position: absolute;
+ 	font-size: 30px;
+ 	left: 800px;
+ 	top: 60px;
+ }
+ .l8{
+ 
  	position: absolute;
  	font-size: 30px;
- 	left: 300px;
- 	top: 0px;
+ 	left: 700px;
+ 	top: 500px;
+ }
+ .l9{
+ 	position: absolute;
+ 	font-size: 28px;
+ 	left: 800px;
+ 	top: 550px;
+ }
+ .l10{
+ 	position: absolute;
+ 	font-size: 25px;
+ 	left: 810px;
+	top: 650px
+ }
+ .l11{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 810px;
+ 	top: 700px
  }
 
 @keyframes bounce {
@@ -90,7 +132,7 @@ p{
 .words{
 	justify-content: center;
 	align-content: center;
-	width: 300px;
+	width: 200px;
 	height: 700pxs;
 	display: flex;
 	hyphens: none;
@@ -136,8 +178,8 @@ font-size: 8px ;
  .l6{
  	position: absolute;
  	font-size: 20px;
- 	left: 600px;
- 	top: 900px;
+ 	left: 400px;
+ 	top: 600px;
  }
  .l7{
  	position: absolute;
@@ -145,6 +187,33 @@ font-size: 8px ;
  	font-size: 20px;
  	left: 300px;
  	top: 0px;
+ }
+ .l8{
+ 	position: absolute;
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 100px;
+ }
+ .l9{
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 300px;
+ 	top: 500px;
+ }
+ .l10{
+ 	position: absolute;
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 100px;
+ 	top: 600px;
+ }
+ .l11{
+ 	position: absolute;
+ 	position: absolute;
+ 	font-size: 20px;
+ 	left: 400px;
+ 	top: 200px;
  }
 
 /*tablet*/
@@ -161,8 +230,8 @@ p{
 .words{
 	justify-content: center;
 	align-content: center;
-	width: 300px;
-	height: 700pxs;
+	width: 200px;
+	height: 900pxs;
 	display: flex;
 	hyphens: none;
 	text-align: justify;

@@ -1,29 +1,12 @@
-$(document).ready(function () {
-  $(".window").on("click", function (e) {
-    // Adjust the condition to control the area where the overlay will appear
-    if (e.clientY < $(this).height() * 0.3) {
-      $(".handprint").fadeIn();
-    }
-  });
+ function toggleVisibility(containerId) {
+      var container = document.getElementById(containerId);
 
-  $(document).on("click", function (e) {
-    if (!$(e.target).closest(".window").length) {
-      $(".handprint").fadeOut();
-    }
-  });
-});
+      // Toggle opacity to create a flash effect
+      container.style.opacity = (container.style.opacity === '0' || container.style.opacity === '') ? '1' : '0';
 
-$(document).ready(function () {
-  $(".window").on("click", function (e) {
-    // Adjust the condition to control the area where the overlay will appear
-    if (e.clientY < $(this).height() * 0.7) {
-      $(".handprint3").fadeIn();
+      // Toggle visibility after a short delay
+      setTimeout(function() {
+        container.style.display = (container.style.display === 'none' || container.style.display === '') ? 'block' : 'none';
+      }, 10); // 500 milliseconds = 0.5 seconds (adjust as needed)
     }
-  });
 
-  $(document).on("click", function (e) {
-    if (!$(e.target).closest(".window").length) {
-      $(".handprint3").fadeOut();
-    }
-  });
-});

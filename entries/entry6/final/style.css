@@ -1,319 +1,114 @@
-body{
-	background-color: grey;
-}
-.grid{
-	display: grid;
-	grid-template-columns: repeat(30, 2fr) ;
-	gap: 0px;
-	position: relative;
-	row-gap: 10px;
-	padding: 0;
-}
 
-.thought{
-	width: 300px;
-	height:50px;
-	position: absolute;
-	z-index: 2;
-	top: 100px;
-	left: 120px;
-	background-color: black;
-	border-style: dotted;
-	border-color: yellow;
-	align-items: center;
-	opacity: 0;
-	margin: 50px;
-	opacity: 0;
-	text-align: center;
-}
-.thought:hover{
-opacity: 1;
-}
-.thought1{
-	width: 320px;
-	height:50px;
-	position: absolute;
-	z-index: 2;
-	top: 300px;
-	right: 200px;
-	background-color: black;
-	border-style: dotted;
-	border-color: yellow;
-	align-items: center;
-	margin: 50px;
-	text-align: center;
-	opacity: 0;
-}
-.thought1:hover,.thought2:hover,.thought3:hover,.thought4:hover{
-	opacity: 1;
-	}
-
-.thought2{	
-	width: 320px;
-	height:50px;
-	position: absolute;
-	z-index: 2;
-	top: 300px;
-	left: 200px;
-	background-color: black;
-	border-style: dotted;
-	border-color: yellow;
-	align-items: center;
-	margin: 50px;
-	text-align: center;
-	opacity: 0;
-}
-.thought3{	
-	width: 320px;
-	height:50px;
-	position: absolute;
-	z-index: 2;
-	top: 100px;
-	right: 200px;
-	background-color: black;
-	border-style: dotted;
-	border-color: yellow;
-	align-items: center;
-	margin: 50px;
-	text-align: center;
-	opacity: 0;
-}
-.thought4{	
-	width: 320px;
-	height:50px;
-	position: absolute;
-	z-index: 2;
-	top: 400px;
-	left: 100px;
-	background-color: black;
-	border-style: dotted;
-	border-color: yellow;
-	align-items: center;
-	margin: 50px;
-	text-align: center;
-	opacity: 0;
-}
-p1,p2,p3,p4,p5{
-	font-size: 20px;
-	font-family: monospace;
-	color: white;
-	text-align: center;
-	margin: auto;
-}
-.spot{
-	border-radius: 50%;
-	align-items: center;
-	width: 400px ;
-	height: 400px;
-	justify-content: center; /* Horizontally center the content */
-  align-items: center; 
-  max-width: 100%;
-  max-height: : 100%;;
-background-color: black;
-}
-
-}
-.spot:hover{
-	background-color: yellow;
-
-}
-
-
-.title{
-	align-items: center;
-	align-content: center;
-	margin: auto;
-	border-radius: 50%;
-	width: 500px;
-	height:300px;
-	text-align: center;
-}
-h1{
-	font-family: "scrapbooker-tuscan", sans-serif;
-font-weight: 400;
-font-style: normal;
-	color: white;
-	font-size: 70px;
-	text-align: center;
-}
-h1:hover{
-	font-family: "ht-neon", sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 70px;
-	text-align: center;
-	color: yellow;
-
-}
-.title:hover{
-	background-color: black;
-	padding: 0;
-}
-p{
-	font-family: monospace;
-	font-size: 20px;
-	text-align: center;
-	margin: auto;
-	color: white;
-}
-p:hover{
-	font-family: "ht-neon", sans-serif;
-font-weight: 400;
-font-style: normal;
+ header{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 99%;
+  font-size: 2vh;
+font-family: "arial";
+padding bottom: 10px;
 text-align: center;
-	color: yellow;
-	font-size: 30px;
+}
+a{
+     text-decoration: none;
+     color: 	white;
 }
 
+ body {
+      background-color: black;
+      margin: 0;
+    }
 
-/*responsive layout*/
+    p {
+      font-size: 70px;
+      color: black;
+      text-align: center;
+      font-family: arial;
+    }
 
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      row-gap: 10px;
+      column-gap: 10px;
+    }
 
+    .Gray, .Darkgray, .orange, .number {
+      border-radius: 50%;
+      height: 200px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 50px;
+      font-size: 90px;
+      color: black;
+      font-family: arial;
+      font-weight: 100;
+    }
+     .long{
 
+     border-radius: 70px;
+      height: 200px;
+      width:800px ;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 50px;
+      background-color: black;
+      font-size: 90px;
+      color: black;
+      font-family: arial;
+      font-weight: 100;
+    }
 
+ .Gray {
+      background-color: lightgray;
+      width: 200px;
+    }
 
+ .Darkgray {
+      background-color: darkgray;
+      width: 200px;
+    }
 
-@media (max-width:767px){
-	
-	.grid{
-	display: grid;
-	grid-template-columns: repeat(10, 2fr) ;
-	gap: 0px;
-	position: relative;
-	row-gap: px;
-	padding: 0;
+ .orange {
+      background-color: orange;
+      width: 200px;
+    }
+ .long {
+      background-color: darkgray;
+      width: 600px;
+      grid-column: 1 / span 2;
+      grid-row: 5;
+    }
+
+ .number {
+      background-color: black;
+      width: 1200px;
+    }
+
+.numbers,.clickedNumber {
+       text-align: right;
+      font-size: 90px;
+      color: white;
+      text-align: right;
+      font-family: arial;
+      font-weight: 100;
+    }
+
+ .title{
+ border-radius: 70px;
+	height: 200px;
+	width: 1200px;
+	text-align: right;
+    
 }
-.thought{
-	width: 200px;
-	height:25px;
-	position: absolute;
-	z-index: 2;
-	top: 100px;
-	left: 120px;
-	background-color: black;
-	border-style: dotted;
-	border-color: yellow;
-	align-items: center;
-	margin: 50px;
-	text-align: center;
-}
-
-}
-.thought1{
-	width: 290px;
-	height:25px;
-	position: absolute;
-	z-index: 2;
-	top: 300px;
-	left: 10px;
-	background-color: black;
-	border-style: dotted;
-	border-color: yellow;
-	align-items: center;
-	text-align: center;
-}
-
-
-.thought2{	
-	width: 320px;
-	height:25px;
-	position: absolute;
-	z-index: 2;
-	top: 300px;
-	left: 150px;
-	background-color: black;
-	border-style: dotted;
-	border-color: yellow;
-	align-items: center;
-	margin: 50px;
-	text-align: center;
-	
-}
-.thought3{	
-	width: 320px;
-	height:25px;
-	position: absolute;
-	z-index: 2;
-	top: 100px;
-	right: 200px;
-	background-color: black;
-	border-style: dotted;
-	border-color: yellow;
-	align-items: center;
-	margin: 50px;
-	text-align: center;
-
-}
-.thought4{	
-	width: 320px;
-	height:25px;
-	position: absolute;
-	z-index: 2;
-	top: 400px;
-	left: 100px;
-	background-color: black;
-	border-style: dotted;
-	border-color: yellow;
-	align-items: center;
-	margin: 50px;
-	text-align: center;
-	opacity: 0;
-}
-
-.spot{
-	border-radius: 50%;
-	align-items: center;
-	width: 400px ;
-	height: 400px;
-	background-color: yellow;
-
-}
-h1{
-	font-family: "scrapbooker-tuscan", sans-serif;
-font-weight: 400;
-font-style: normal;
+.titles{
+	font-size: 120px;
 	color: white;
-	font-size: 50px;
-	text-align: center;
+	font-family: arial;
+	font-weight: 100;
+	text-align: right;
 }
-h1:hover{
-	font-family: "ht-neon", sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 50px;
-	text-align: center;
-	color: yellow;
-
-}
-.title{
-	width:400px ;
-	height: 250px;
-}
-.title:hover{
-	background-color: black;
-	padding: 0;
-}
-p{
-	font-family: monospace;
-	font-size: 12px;
-	text-align: center;
-	margin: auto;
-	color: white;
-}
-p:hover{
-	font-family: "ht-neon", sans-serif;
-font-weight: 400;
-font-style: normal;
-text-align: center;
-	color: yellow;
-	font-size: 15px;
-}
-
-p1,p2,p3,p4,p5{
-	font-size: 15px;
-	font-family: monospace;
-	color: white;
-	text-align: center;
-	margin: auto;
-}
-
+ 

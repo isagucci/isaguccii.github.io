@@ -1,3 +1,24 @@
+
+header{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 99%;
+  font-size: 2vh;
+font-family: "mudstone-sans", sans-serif;
+font-weight: 900;
+font-style: normal;
+color: #4259C3;
+}
+a{
+     text-decoration: none;
+     color:#6F4E37;
+     font-family: Futura;
+}
+
+
+
+
+
 body{
 	background-image: linear-gradient(to top,#000B18,#00172D,#00264D,, #212AA5,#4259C3,#7B9FF2,#9EC2FF,white);
 	height: 9100px;
