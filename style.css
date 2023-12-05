@@ -1,94 +1,81 @@
 body{
 	background: black;
 }
-.bodycontainer{
-	position: relative;
-}
-.textcontainer{
-	position: absolute;
-	margin-left: 100px;
-	display: grid;
-	grid-template-columns:repeat(5,1fr);
-	row-gap: 400px;
-	align-content: center;
-	z-index: 2;
-	column-gap: 160px;
-	 top: px;
-}
+
+
 .title{
-font-family: "shlop-shloppy", sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 25px;
+
 justify-content: center; /* Center horizontally */
  align-items: center; 
  margin: auto;
 
 }
+.scroll1{  
+   width: 100%;
+      max-width: 1200px;
+      overflow-x: auto;
+      overflow-y: hidden;
+      margin: 0 auto;
+    }
 
-a{
-	color: #880808;
-}
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 30px;
+    }
 
-.closeddoorc{
-	position: absolute;
-	display: grid;
-	grid-template-columns:repeat(5,1fr);
-	margin-left: 80px;
-	 column-gap: 70px;
-	 row-gap: 50px;
-	 z-index: 1 ;
-	 top: 50px;
-}
+    .closeddoor {
+      width: 100px;
+      min-height: 100px;
+      background-color: black;
+      box-sizing: border-box;
+      text-align: center;
+      vertical-align: middle
+    }
 
-.opendoorc{
-	position: absolute;
-	display: grid;
-	grid-template-columns:repeat(5,1fr);
-	margin-left: 80px;
-	 column-gap: 0px;
-	 z-index: 2 ;
-}
+     .closeddoor1,.closeddoor2 {
+      margin-left: 280px;
+    }
+  
 
-.opendoor{
-	opacity: 0;
-}
-
-.opendoor:hover{
-	opacity: 1;
-}
 h1{
-	background-image: ;
-}
-.H1{
-	font-family: "shlop-shloppy", sans-serif;
-font-weight: 400;
+font-family: "parry-grotesque", sans-serif;
+font-weight: 900;
 font-style: normal;
-font-size: 50px;
- justify-content: center; /* Center horizontally */
- align-items: center; 
- 	color: whitesmoke;
- 	top: 300px;
- 	margin-left: 200px;
-  background-image:linear-gradient(to bottom,whitesmoke,#880808); /* Define your gradient colors */
-  background-clip: text;
-  -webkit-background-clip: text; /* For older webkit browsers */
-  color: transparent;
+font-size: 150px;
+margin: auto;
+color: #880808;
+text-align: center;
+line-height: 1;
+-webkit-text-stroke: 2px black;
+border: 2px solid #880808
+
+/*border: 2px solid #880808;*/
+
+
+}
+
+.H1{
+
 }
 
 p{
-font-family: monospace;
+font-family: "parry-grotesque", sans-serif;
 font-weight: 400;
 font-style: normal;
 color: #880808;
-font-size: 25px;
+font-size: 20px;
+text-align: center;
+/*-webkit-text-stroke: 1.5px #880808;*/
+
+
+
+
 }
+
 .bodytext{
-	width: 1000px;
-	height: 200px;
-	margin-left: 200px;
-	justify-content: center;
-	text-align: center;
+border: 2px solid #880808;
+
 }
 
 
